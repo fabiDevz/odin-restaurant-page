@@ -1,19 +1,19 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     font-family: "Shadows Into Light", cursive;
     font-weight: 400;
     font-style: normal;
 }
 
-body{
-    background-image: url('./img/coffee-background.jpg'); 
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
-    background-size: cover; 
-    background-position: center ;
+body {
+    background-image: url('./img/coffee-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
-.nav-bar{
+.nav-bar {
     background-color: rgb(0, 0, 0, .6);
     height: 100px;
     color: white;
@@ -21,17 +21,18 @@ body{
     grid-template-columns: 200px 1fr;
     justify-items: center;
     align-items: center;
-    h1{
+
+    h1 {
         font-size: 35px;
     }
 }
 
-.nav-bar-list{
+.nav-bar-list {
     display: flex;
     gap: 150px;
 }
 
-.btn-nav-bar{
+.btn-nav-bar {
     color: white;
     background-color: rgb(30, 255, 0, .5);
     border: 0;
@@ -41,16 +42,17 @@ body{
 }
 
 
-.main{
+.main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 8%;
+    margin-top: 4%;
 }
-.content-home{
+
+.content-home {
     background-color: rgba(255, 225, 0, 0.3);
-    
-    
+
+
     width: 500px;
     display: flex;
     flex-direction: column;
@@ -60,9 +62,66 @@ body{
     font-size: 30px;
     border: 2px solid black;
 
-    img{
+    img {
         width: 200px;
         border-radius: 50%;
         height: 200px;
+    }
+}
+
+.content-menu {
+
+    background-color: rgba(42, 22, 0, 0.7);
+    border-radius: 15px;
+    display: grid;
+    width: 60vw;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+
+.titulo-menu{
+    color:white;
+    font-size: 50px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0, .6);
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.product-menu {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 20px;
+    font-size: 10px;
+    margin-left: 100px;
+    
+
+
+    img {
+        width: 250px;
+        height: 200px;
+        border-radius: 20px;
+        object-fit: cover;
+        border: 2px solid goldenrod;
+    }
+
+    h3 {
+        color: white;
+        font-weight: bold;
+        margin-left: 5px;
+        font-size: 35px;
+    }
+
+    p {
+        margin-left: 10px;
+        margin-top: 20px;
+        color: white;
+        width: 250px;
+        font-size: 20px;
     }
 }

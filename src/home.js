@@ -8,7 +8,7 @@ function cargarHome() {
     if (content.innerHTML.trim() != '') {
         content.innerHTML = '';
     } 
-
+  
     //creacion de elementos 
     const titulo = document.createElement('h2');
     const descripcion = document.createElement('p');
