@@ -6,7 +6,7 @@ Proyecto desarrollado en el bootcamp de www.theodinproject.com
 
 ## Demo
 
-  https://fabidevz.github.io/odin-page-restaurant-page/
+  https://fabidevz.github.io/odin-restaurant-page/
 ## Tecnologías utilizadas
 
 - ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)   
